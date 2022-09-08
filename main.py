@@ -7,7 +7,5 @@ def main():
         message = input("Message: ")
         client.send_message("/chatbox/input", [message.encode('ascii', errors="replace").decode(), b])
     
-
-
 if __name__ == "__main__":
     main()
